@@ -15,11 +15,20 @@
             "path" : "pages/my/my",
             "style" : {}
         }
-    ],
+    ],"subPackages":[
+		{
+			"root":"subpkg",
+			"pages":[{
+                    "path" : "goods_list/goods_list",
+                    "style" : {}
+                }
+            ]
+		}
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#007AFF",
+		"navigationBarTitleText": "品优购",
+		"navigationBarBackgroundColor": "#C00000",
 		"backgroundColor": "#FFFFFF"
 	},
 	"tabBar" :{
