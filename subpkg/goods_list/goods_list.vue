@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		asf
 	</view>
 </template>
 
