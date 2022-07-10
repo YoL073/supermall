@@ -18,9 +18,18 @@
     ],"subPackages":[
 		{
 			"root":"subpkg",
-			"pages":[{
+			"pages":[
+				{
+					"path":"goods_detail/goods_detail",
+					"style": {}
+				},
+				{
                     "path" : "goods_list/goods_list",
-                    "style" : {}
+                    "style" : {
+						 "onReachBottomDistance": 150,
+						 "enablePullDownRefresh": true,
+						 "backgroundColor": "#F8F8F8"
+					}
                 }
                 ,{
                     "path" : "search/search",
